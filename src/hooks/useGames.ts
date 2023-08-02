@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import apiClient from "../services/api-client";
 import { CanceledError } from "axios";
-import { FaSadCry } from "react-icons/fa";
 
 export interface Platform{
   id:	number;
